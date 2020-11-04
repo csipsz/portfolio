@@ -2,13 +2,13 @@ import './App.css';
 import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/Navbar';
-import ProjectList from './components/ProjectList';
+import ProjectPage from './components/ProjectPage';
 
 function App() {
   return (
     <div className="App">
         <Navbar/>
-        <ProjectList/>
+        <ProjectPage/>
     </div>
   );
 }
